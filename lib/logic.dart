@@ -106,7 +106,6 @@ class Game
     else if (Player.playerO.containsAll(2, 4) && emptyCells.contains(6))
       index=6;
 
-    //SSSSS
 
 
     else if (Player.playerO.containsAll(0, 2) && emptyCells.contains(1))
@@ -127,7 +126,6 @@ class Game
       index=4;
 
 
-    //oooo
     else if (Player.playerO.containsAll(1, 2) && emptyCells.contains(0))
       index=0;
     else if (Player.playerO.containsAll(4, 5) && emptyCells.contains(3))
@@ -149,7 +147,6 @@ class Game
 
 
 
-    //xxx
 
 
     else if (Player.playerX.containsAll(0, 1) && emptyCells.contains(2))
@@ -169,7 +166,6 @@ class Game
     else if (Player.playerX.containsAll(2, 4) && emptyCells.contains(6))
       index=6;
 
-    //SSSSS
 
 
     else if (Player.playerX.containsAll(0, 2) && emptyCells.contains(1))
@@ -222,35 +218,3 @@ class Game
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-
-
-
-
-class Game
-{
-
-
-
-
-
-
-}
-
-
-
-
-
-*/
